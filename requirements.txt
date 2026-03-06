@@ -1,0 +1,20 @@
+# This project was developed in the following local environment:
+# torch==2.12.0.dev20260305+cu128
+# numpy==2.2.6
+# Pillow==12.1.1
+# tqdm==4.67.1
+#
+# For reproduction, you do not need to use the exact same nightly PyTorch build.
+# In most cases, a PyTorch version >= 2.0 should work.
+# If you use GPU training, please install a PyTorch build that matches your CUDA setup.
+# The exact torch version above is kept here as a reference.
+
+numpy==2.2.6
+Pillow==12.1.1
+tqdm==4.67.1
+
+# PyTorch
+# My local version: torch==2.12.0.dev20260305+cu128
+# Recommended: torch>=2.0
+# If you want to match my environment more closely, you can install a recent CUDA build of PyTorch.
+torch>=2.0
